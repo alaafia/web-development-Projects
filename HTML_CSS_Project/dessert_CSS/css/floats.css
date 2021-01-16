@@ -1,0 +1,80 @@
+/* Border box declaration 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+/* inherit border-box on all elements in the universe and before and after
+ */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: Arial, Geneva, sans-serif;
+}
+a {
+	color: #2772B0;
+}
+.wrapper {
+	width: 97%;
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+	background-color: #fff;
+}
+
+div img {
+	width: 100%;
+	max-width: 225px; 
+}
+
+/* grid system -- mobile first! */
+
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px)  {
+
+}
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+
+}
+
+/*This is my testing code*/
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.col-1 {
+	float: left;
+	flex-wrap: wrap;
+	margin-left: 4%;
+	width: 20%;
+	background-color: rgb(238, 186, 218);
+}
+
+.col-2 {
+	float: left; ;
+	flex-wrap: wrap;
+	margin-left: 4%;
+	width: 44%;
+	background-color: rgb(168, 113, 127);
+}
+
+.col-3 {
+	float: left; ;
+	flex-wrap: wrap;
+	margin-left: 4%;
+	width: 20%;
+	background-color: rgb(190, 70, 100);
+}
+.wide {
+
+	width: 44%;
+}
