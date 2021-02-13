@@ -3,5 +3,6 @@ This repository is dedicated to all the projects I did during the web developmen
     
     *frontendmasters Projects : - hello world
                                 - dessert_CSS
+                                - theClock
                                 
     *FreecodeCamp Projects    : - Build a Tribute Page.
