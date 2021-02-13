@@ -1,0 +1,44 @@
+#main {
+    background-color: rgb(156, 99, 99);
+    text-align: center;
+}
+
+#title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(61, 16, 27);
+    font-size: 100px;
+ 
+}
+ h3 {
+     color: rgb(29, 12, 16);
+     font-weight: 300;
+    font-size: 30px;
+ }
+
+ #img-div {
+     background-color:  rgb(58, 46, 46);
+     margin: 2%;
+ }
+ #image {
+     width: 75%;
+     display: inline-flex;
+     }
+#img-caption {
+     color: rgb(255, 204, 216);
+     font-size: 30px;
+  } 
+
+  #tribute-info {
+      padding: 1%;
+      text-align: start;
+      color:rgb(51, 12, 22);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  footer {
+    font-size: 33px;
+  } 
+ #tribute-link:hover {
+    background-color: rgb(126, 71, 71);
+ }
