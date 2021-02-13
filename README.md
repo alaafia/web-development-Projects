@@ -1,4 +1,4 @@
-# frontendmasters_web-development_Projects
+# web development Projects
 This repository is dedicated to all the projects I did during the web development's courses :
     
     *frontendmasters Projects : - hello world
