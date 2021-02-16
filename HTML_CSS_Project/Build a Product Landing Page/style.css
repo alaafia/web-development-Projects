@@ -1,0 +1,35 @@
+
+body {
+	background-color: antiquewhite;
+}
+#header {
+	  background-color: burlywood;
+	  border-radius: 2mm;
+}
+.title {
+	display: inline-flex;
+}
+.nav-link{
+	float: left;
+	padding-right: 8%;
+	color: #000;
+	}
+
+#nav-bar{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-bottom: 15%;
+}
+
+#header-img {
+	width: 30px;
+	height: 30px;
+}
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+}
+main {
+	text-align: center;
+}
+#intro {
+}
+
